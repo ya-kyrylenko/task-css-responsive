@@ -1,0 +1,261 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=cyrillic-ext);
+
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(../fonts/MyriadPro.otf);
+}
+ 
+@font-face{
+    font-family: MyriadPro-Semibold;
+    src: url(../fonts/MyriadPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: m_Brody;
+    src: url(../fonts/m_Brody.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: url('../assets/images/fon-middle.png') repeat;
+}
+.container {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+}
+
+header {
+    border-top: 12px solid #33333B;
+    background: url('../assets/images/fon-top.png');    
+}
+
+.wrapper {
+    position: relative;
+    width: 998px;
+    margin: 0px auto;
+}
+
+.catwill {
+    float: left;
+    width: 263px;
+    height: 97px;
+    background: url('../assets/images/CatWill-full.png') no-repeat scroll 17px 4px / 229px 79px #33333B;
+    border-radius: 0px 0px 18px 18px;
+}
+.social-network{
+    float: right;
+    margin: 47px 82px 0px 0px;
+}
+.social-network a{
+    display: block;
+    margin-left: 40px;
+    width: 58px;
+    height: 58px;
+    float: left;
+    border-radius: 50%;
+}
+.social-network .twitter{
+    background: url('../assets/images/twitter.png') no-repeat 15px 18px #33333B;
+}
+.social-network .facebook{
+    background: url('../assets/images/facebook.png') no-repeat 20px 14px #33333B;
+}
+.social-network .mail{
+    background: url('../assets/images/mail.png') no-repeat 15px 18px #33333B;
+}
+.social-network .vk{
+    background: url('../assets/images/vk.png') no-repeat 8px 18px #1e1e22;
+}
+.stories {
+    display: none;
+}
+.scary-stories{
+    background: url('../assets/images/book.png') no-repeat scroll 0px 5px / 88px 88px;
+    padding: 0px 0px 0px 100px;
+    font-size: 44px;
+    line-height: 48px;
+    font-family: "Roboto Condensed";
+    text-shadow: 2px 3px 0px #020202;
+    color: #D0A22B;
+}
+.clear{
+    clear: both;
+    float: none;
+}
+
+.head-block {
+    float: left;
+    margin: 85px 0px 0px 0px;
+    width: 356px;
+}
+header .wrapper{
+    height: 439px;
+}
+.splitter {
+    margin-top: 10px;
+    position: relative;
+/*    border: 1px solid red;*/
+}
+.head-block .split{
+    padding-top: 3px;
+    font-size: 17px;
+    text-align: center;
+    color: #525051;
+    float: left;
+    padding: 0px 3px;
+    margin-top: 3px;
+}
+.left{
+    float: left;
+    width: 64px;
+    height: 1px;
+    margin: 12px 0px;
+    border: 0;
+    background-color: #525051;
+    color: #525051;
+}
+
+.right{
+    float: left;
+    width: 64px;
+    height: 1px;
+    margin: 12px 0px;
+    border: 0;
+    background-color: #525051;
+    color: #525051;
+}
+
+.ask {
+    color: #BCBAAB;
+    margin-top: 49px;
+}
+
+.content{
+    position: relative;
+    width: 998px;
+    margin: 0px auto;
+}
+.app-store {
+    width: 236px;
+    margin-top: 40px;
+}
+.app-store .text{
+    text-align: center;
+    color: #87847E;
+    font: bold 18px/30px'PT Sans';
+}
+
+
+
+.app-store .t1 {
+    background: url(../assets/images/phone-orange.png) no-repeat 28px 9px / 27px 50px, linear-gradient(to bottom, #C38B00, #EFDA79);
+    border: 1px solid #FFB577;
+    box-shadow: #A67A08 0 2px 1px;
+    color: #C48D00;
+    margin-bottom: 11px;
+    margin-top: 8px;
+}
+
+.app-store .t1:hover {
+    background: url(../assets/images/phone-white.png) no-repeat 28px 9px / 27px 50px, linear-gradient(to bottom, #EFDA79, #C38B00);
+    border: 1px solid #FFB577;
+    box-shadow: #A67A08 0 2px 1px;
+    color: white;
+}
+
+.app-store a {
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    padding: 5px 0 0 68px;
+    text-align: left;
+    border-radius: 10px;
+    display: block;
+    height: 64px;
+}
+.app-store span {
+  font: 33px/28px "MyriadPro-Semibold"; 
+}
+
+.app-store .t2 {
+    background: url(../assets/images/phone-grey.png) no-repeat 28px 9px / 27px 50px, linear-gradient(to bottom, #9C9586, #CBC5BD);
+    border: 1px solid #D3CCBE;
+    box-shadow: #9B8E72 0 2px 1px ;
+    color: #9F9589;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+
+.app-store .t2:hover {
+    background: url(../assets/images/phone-white.png) no-repeat 28px 9px / 27px 50px, linear-gradient(to bottom, #CBC5BD, #9C9586);
+    border: 1px solid #D3CCBE;
+    box-shadow: #9B8E72 0 2px 1px ;
+    color: white;
+}
+.splitter2 {
+    color: #87847E;
+    text-align: center;
+    font: 30px m_Brody;
+}
+
+.splitter2:before, .splitter2:after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 92px;
+    position: relative;
+    background-color: #D7D7D7;
+    top: 18px;
+}
+.splitter2:before{
+    float: left;
+}
+.splitter2:after{
+    float: right;
+}
+.see{
+position: absolute;
+display: inline-block;
+width: 140px;
+font: normal 28px/28px 'm_brody';
+color: #626570;
+/*top: -728px;
+left: 325px;*/
+top: -321px;
+left: -5px;
+}
+.see:after{
+    position: absolute;
+    content: '';
+    background: url('../assets/images/arrow.png') no-repeat;
+    width: 35px;
+    height: 30px;
+    bottom: 11px;
+    right: -7px;
+}
+.screens{
+    position: relative;
+    top: -407px;
+    left: 330px;
+}
+
+.choice{
+    display: none;
+    
+}
+.iPad{
+    position: absolute;
+    left: 150px;
+    top: -250px;
+}
+.iPhone{
+    position: absolute;
+}
+/*.slide-indicators li{
+    display: inline-block;
+
+}*/
