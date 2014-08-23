@@ -23,6 +23,7 @@
 }
 body {
     background: url('../assets/images/fon-middle.png') repeat;
+    min-width: 320px;
 }
 .container {
     font-family: "PT Sans", sans-serif;
@@ -35,9 +36,13 @@ header {
 }
 
 .wrapper {
+    height: 439px;
     position: relative;
     width: 998px;
     margin: 0px auto;
+    /* background: radial-gradient(rgba(200, 200, 220, 0.3) 5%, rgba(0, 0, 0, 0) 60%) 194px 0 no-repeat; */
+    /* background: -webkit-radial-gradient(center, ellipse cover, #feffff 0%,#d2ebf9 100%); */
+    background: radial-gradient(ellipse at bottom, #3C3F44 0%, rgba(0, 0, 0, 0) 70%) no-repeat;
 }
 
 .catwill {
@@ -58,6 +63,7 @@ header {
     height: 58px;
     float: left;
     border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px black;
 }
 .social-network .twitter{
     background: url('../assets/images/twitter.png') no-repeat 15px 18px #33333B;
@@ -94,7 +100,7 @@ header {
     width: 356px;
 }
 header .wrapper{
-    height: 439px;
+    
 }
 .splitter {
     margin-top: 10px;
@@ -240,7 +246,8 @@ left: -5px;
 .screens{
     position: relative;
     top: -407px;
-    left: 330px;
+    margin-left: 330px;
+    /* left: 330px; */
 }
 
 .choice{
@@ -271,11 +278,7 @@ left: -5px;
     margin: 2px 38px;
 }
 .features{
-  /*  width: 946px;*/
-    /*text-align: center;*/
-    /*margin-top: 16%;*/
     margin-top: 162px;
-    /*width: 1024px;*/
 }
 .features div{
     float: left;
@@ -284,6 +287,7 @@ left: -5px;
    /* display: inline-block;*/
     /*height: 200px;*/
     width: 190px;
+    height: 190px;
     /*margin: 0px;*/
     text-align: center;
     /*background-color: yellow;*/
@@ -293,7 +297,7 @@ left: -5px;
 }
 .feature h3{
     font: normal 30px/30px 'Roboto Condensed';
-    color:#524F50;
+    color:#524F50; 
     letter-spacing: -1px;
     margin-top: 10px;
 }
@@ -332,7 +336,6 @@ h2{
 .info  a{
     color:#A67A08;
     font-style: italic;
-    /* text-decoration: underline; */
     font-family:normal 'PT Sans'
 }
 .info :last-child{
@@ -341,13 +344,14 @@ h2{
 
 footer{
     background: url('../assets/images/fon-top.png'); 
+    width: 100%;
     /*position: relative;*/
 }
 .footer-wrapper{
     height: 258px;
     position: relative;
     margin: 0 auto;
-    width: 998px;    
+    width: 998px;  
 }
 .liked{
     float: right;
