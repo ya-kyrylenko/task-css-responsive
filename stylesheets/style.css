@@ -420,3 +420,7 @@ footer{
 .liked .mail {
     background: url('../assets/images/mail_link.png') no-repeat;
 }
+
+.dontsee{
+    display: none;
+}

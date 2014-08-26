@@ -23,6 +23,9 @@
 	    float: right;
 	    margin: 19px 81px 0px 0px;
 	}
+	.dontsee{
+    	display: none;
+	}
 	.head-block {
 		position: relative;
 	    margin: 85px 0px 0px 0px;
@@ -46,6 +49,8 @@
 		top: -5px;
 		font-family: MyriadPro;
 		line-height: 20px;
+		width: 410px;
+		margin-left: 180px;
 	}
 	.head-block .splitter{
 		top: -148px;
@@ -149,12 +154,10 @@
 }
 
 @media screen and (min-width: 480px)and (max-width:767px){
-	*{
-		display: none;		
-	}
+
 }
 @media screen and (min-width: 320px)and (max-width:479px){
 	*{
-		display: none;		
+		display: none;
 	}
 }

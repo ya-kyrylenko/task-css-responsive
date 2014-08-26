@@ -1,0 +1,112 @@
+@media screen and (min-width: 480px)and (max-width:767px){
+	header{
+		height: 368px;
+	}
+	body{
+		/* width: 480px; */
+	}
+	.catwill {
+		float: left;
+		margin-left: 12px;
+		width: 62px;
+		background: url('../assets/images/Cat.png') no-repeat scroll 9px 4px / 45px 45px #33333B;
+		height: 59px;
+	}
+	.social-network{
+		float: right;
+		margin: 9px 14px 0px 0px;
+	}
+	.social-network a {
+		height: 44px;
+		width: 44px;
+		float: left;
+		margin-left: 46px;
+	}
+	.social-network a:first-child{
+		margin: 0px;
+	}
+	.wrapper {
+		width: 420px;
+		height: 368px;
+	}
+
+	.social-network .twitter{
+    	background: url('../assets/images/twitter.png') no-repeat 12px 14px/ 24px #33333B;
+	}
+	.social-network .facebook{
+	    background: url('../assets/images/facebook.png') no-repeat 17px 11px/ 12px  #33333B;
+	}
+	.social-network .mail{
+	    background: url('../assets/images/mail.png') no-repeat 11px 13px/ 24px #33333B;
+	}
+	.social-network .vk{
+	    background: url('../assets/images/vk.png') no-repeat 6px 14px/ 30px #1e1e22;
+	}
+	.iPad{
+		display: none;
+	}
+	.iPhone{
+		/*display: none;*/
+	}
+	.see{
+		display: none;
+	}
+	.dontsee{
+		height: 67px;
+		width: 67px;
+		display: block;
+		margin: -62px 0 0 180px;
+	}
+	.head-block {
+		position: relative;
+	    margin: 85px 0px 0px 0px;
+	    width: 100%;
+	}
+	.head-block .splitter{
+		top: -98px;
+	}
+	.left{
+		width: 100px;
+	}
+	.right{
+		width: 100px;
+	}
+	.scary-stories{
+		background: url('../assets/images/bla.png');
+		font-size: 30px;
+		padding: 0px;
+		margin-top: 56px;
+		margin-left: 73px;
+	}
+	.head-block .ask{
+		display: none;
+	}
+	.head-block .stories{
+		display: block;
+		color: #BEBBAC;
+		word-spacing: 9px;
+		/* text-align: center; */
+		position: relative;
+		top: -20px;
+		font-family: MyriadPro;
+		line-height: 23px;
+		 text-indent: 16px;
+	}
+	.content{
+		width: 420px;
+	}
+	.app-store{
+		margin: 11px 0 0 90px;
+	}
+	.screens{
+		width: 230px;
+		height: 451px;
+		border: 1px solid blue;
+		top: 0px;
+		left: -235px;
+	}
+	.choice{
+		display: block;
+		text-align: center;
+	}
+}
